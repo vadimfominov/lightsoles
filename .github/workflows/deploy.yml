@@ -1,11 +1,11 @@
-name: Deploy to Sprinthost for lightsoles
+name: Deploy to beget for lightsoles
 on:
   push:
     branches:
       - dev
 jobs:
   deploy:
-    name: 🚀 Deploy to sprinthost via FTP
+    name: 🚀 Deploy to beget via FTP
     runs-on: ubuntu-latest
     steps:
       - name: 🚚 Get latest code
