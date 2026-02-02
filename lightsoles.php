@@ -3,7 +3,7 @@
  * Plugin name: LightSoles
  * Author: Vadim Fominov
  * Author URI: https://t.me/vadimfominov
- * Version: 0.0.3
+ * Version: 0.0.5
  */
 
 add_action('enqueue_block_assets', 'fv_block_assets', 1);
